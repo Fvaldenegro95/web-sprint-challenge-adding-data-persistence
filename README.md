@@ -110,6 +110,19 @@ Build an API inside the `api` folder with endpoints for:
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain the difference between Relational Databases and SQL.
+
+Relational databases are akin to a spreadsheet, storing data.
+
+SQL is for Structured Query Language and is used to write these databases.
+
 2. Why do tables need a Primary Key?
+
+Primary keys identify data on a specific position/row on a table.
+
 3. What is the name given to a table column that references the Primary Key on another table?
+
+It is called a foreign key, but it is the primary key of another table.
+
 4. What do we need in order to have a _many to many_ relationship between two tables?
+
+We need to have a middle table, that holds both foreign keys that reference the primary keys on the corresponding tables.
